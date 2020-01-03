@@ -16,45 +16,7 @@ import cz.vixikhd.anvil.inventory.AnvilInventory;
 import java.util.HashMap;
 
 public class Anvil extends PluginBase implements Listener {
-
-    /* inv -> ui */
-    // window id 0     & slot 7     (diasword -> air)
-    // window id 124   & slot 0   (air -> diasword)
-
-    /* inv -> anvil (ui) */
-    // window id 0   & slot 7     (diasword -> air)
-    // window id 124 & slot 1     (air -> diasword)
-
-    /* anvil output -> ui*/
-    // window id -12 & slot 2      (exkalibr -> air) -> output
-    // window id 124 & slot 1      (diasword -> air) -> slot 0
-    // window id 124 & slot 50     (air -> exkalibr) -> cursor inv
-    // window id -10 & slot 0      (air -> diasword) ???
-
-    /* ui -> inv */
-    // window id 124 & slot 50     (exkalibr -> air)
-    // window id 0   & slot 7      (air -> exkalibr)
-
-    /* > -11, 0
-124, 2
--12, 2
-124, 1
-124, 50
--10, 0
-124, 50
-124, 0*/
-
-    /* > -11, 0
-124, 2
--12, 2
-124, 1
-124, 50
--10, 0
-124, 50
-0, 1
-*/
-
-
+    
     public HashMap<String, AnvilInventory> anvils = new HashMap<>();
 
     @Override
