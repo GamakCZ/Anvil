@@ -1,0 +1,6 @@
+name: 'Anvil'
+description: 'Implements Anvil for Nukkit'
+author: 'VixikCZ'
+api: '1.0.0'
+main: cz.vixikhd.anvil.Anvil
+version: '1.0.0'
