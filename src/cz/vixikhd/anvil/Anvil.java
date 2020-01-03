@@ -16,7 +16,7 @@ import cz.vixikhd.anvil.inventory.AnvilInventory;
 import java.util.HashMap;
 
 public class Anvil extends PluginBase implements Listener {
-    
+
     public HashMap<String, AnvilInventory> anvils = new HashMap<>();
 
     @Override
@@ -70,7 +70,5 @@ public class Anvil extends PluginBase implements Listener {
                 }
             }
         }
-
-        System.out.println("konec akce");
     }
 }
